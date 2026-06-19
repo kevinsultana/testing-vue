@@ -12,6 +12,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@capacitor/android": "^8.4.1",
     "@capacitor/app": "8.1.0",
     "@capacitor/core": "8.4.0",
     "@capacitor/haptics": "8.0.2",
@@ -33,6 +34,7 @@
     "eslint-plugin-vue": "^9.9.0",
     "jsdom": "^22.1.0",
     "terser": "^5.48.0",
+    "typescript": "^6.0.3",
     "vite": "^5.0.0",
     "vitest": "^0.34.6"
   },

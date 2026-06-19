@@ -1,9 +1,12 @@
-import type { CapacitorConfig } from '@capacitor/cli';
+import type { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
-  appName: 'testVueProject',
-  webDir: 'dist'
+  appId: "com.unotek.testvueproject",
+  appName: "TestVueProject",
+  webDir: "dist",
+  server: {
+    androidScheme: "https",
+  },
 };
 
 export default config;
